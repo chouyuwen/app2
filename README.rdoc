@@ -1,5 +1,5 @@
-邱鈺雯 s12119207
-# 先開起檔案資料夾
+# 邱鈺雯 s12119207
+先開起檔案資料夾
 - 1.cd app2   2.bundle   3.rails s    4.到瀏覽器開啟localhost:3000/welcome
 新增網頁
 - 1.去text裡按app/controllers/topics在第四行打def welcome，第五行打end
