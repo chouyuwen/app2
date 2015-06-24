@@ -21,7 +21,7 @@
 - 在Examples第一個starter temphte裏右鍵的檢查元素/點黑色部分/右邊語法會出現黑色部分的語法/複製/貼至Views/layouts/在22行空白處貼上（可能會變成疊字的錯誤）
 
 改疊字
-- 1.components/Navbar/static top/複製紅色字static/貼至views/layouts/appliation.html.erb/22行把navbar-fixed-top’>改掉成navbar-static-top存擋即可
+- 1.	components/Navbar/static top/複製紅色字static/貼至views/layouts/appliation.html.erb/22行把navbar-fixed-top’>改掉成navbar-static-top存擋即可
 
 轉換字體
 - 1.	在css上新增newfile，打上main.css(ctrl+s)
@@ -31,31 +31,27 @@
 
 首頁設定
 
-- <li class="active"><a href=“http://localhost:3000/">
- 首頁</a></li>
+- <li class="active"><a href=“http://localhost:3000/">首頁</a></li>
 
 會員登入
 先建立一個網頁
-- 在app2/app/topics/welcome/打上
- <h1>會員登入</h1>
+- 在app2/app/topics/welcome/打上<h1>會員登入</h1>
 
 研討會報名系統
 
-- 在app2/app/topics/welcome/打上
- <h1>研討會報名區</h1>
+- 在app2/app/topics/welcome/打上<h1>研討會報名區</h1>
 
 投稿區
 
-- 在app2/app/topics/welcome/打上
- <h1>研討會投稿區</h1>
+- 在app2/app/topics/welcome/打上<h1>研討會投稿區</h1>
 
 聯絡
 
 - 在app2/app/topics/welcome/打上<h1>網站聯絡人</h1>
- <h3>樹德科技大學  行銷管理系 邱鈺雯<h3>
- <h4>Tel：(07)-6158000</h4>
- <h4>Phone：0910-627-537</h4>
- <h4>E-mail：s12119207@stu.edu.tw<h4>
+<h3>樹德科技大學  行銷管理系 邱鈺雯<h3>
+<h4>Tel：(07)-6158000</h4>
+<h4>Phone：0910-627-537</h4>
+<h4>E-mail：s12119207@stu.edu.tw<h4>
 
 討論版
 
