@@ -1,4 +1,4 @@
-# 邱鈺雯 s12119207
+邱鈺雯 s12119207
 先開起檔案資料夾
 - 1.cd app2   2.bundle   3.rails s    4.到瀏覽器開啟localhost:3000/welcome
 新增網頁
@@ -7,7 +7,7 @@
 
 - 2.app2/app/viwes/layouts/application.html.erb/在第103-105行複製上面的頁面網址http://localhost:3000/打自己想要的名稱/接著語法上打上點擊網頁所要的名稱即可
 
-# 我把頁面上的使用者登入刪掉
+我把頁面上的使用者登入刪掉
 - 1.App2/app/views/common/_navbar.html.erb
 設定首頁
 更改頁面Bootstrap
@@ -15,14 +15,20 @@
 在第七行是顯示<%=csrf_meta_tags%>，第八行空白，第九行貼上<!—Latest compiled and minfied css —>……(語法在Bootstrap/Getting started/Bootstrap CDN的框框語法/全選/貼上）改版面上的黑色框框
 
 改（增加）頁面寬線
-- 1.在css/tables/複製 class=‘table’/貼至views/topics/index.html.erb在第三行打<table class=‘table’>
-在Getting started/Bosic tenplate/在Examples第一個starter temphte裏右鍵的檢查元素/點黑色部分/右邊語法會出現黑色部分的語法/複製/貼至Views/layouts/在22行空白處貼上（可能會變成疊字的錯誤）
+- 1.在css/tables/複製 class=‘table’/貼至views/topics/index.html.erb
+- 在第三行打``<table class=‘table’>``
+- 在Getting started/Bosic tenplate/
+- 在Examples第一個starter temphte裏右鍵的檢查元素/點黑色部分/右邊語法會出現黑色部分的語法/複製/貼至Views/layouts/在22行空白處貼上（可能會變成疊字的錯誤）
+
 改疊字
 - 1.	components/Navbar/static top/複製紅色字static/貼至views/layouts/appliation.html.erb/22行把navbar-fixed-top’>改掉成navbar-static-top存擋即可
 
 轉換字體
-- 1.	在css上新增newfile，打上main.css(ctrl+s)，裡面打body{font-family:”微軟正黑體”，回到js/index.html，第五行<link rel=”stylesheet”type=”text/css” href=”css/bootstrap.css”>(bootstrap改成新增的文字檔名main)，接著app2/app/assets/stylesheets/application.scss(scss是更改後的檔名
+- 1.	在css上新增newfile，打上main.css(ctrl+s)
+- 裡面打body{font-family:”微軟正黑體”
+- 回到js/index.html，第五行<link rel=”stylesheet”type=”text/css” href=”css/bootstrap.css”>(bootstrap改成新增的文字檔名main)，接著app2/app/assets/stylesheets/application.scss(scss是更改後的檔名
 接著開始利用新增的頁面去打內容
+
 首頁設定
 
 - <li class="active"><a href=“http://localhost:3000/">首頁</a></li>
