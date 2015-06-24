@@ -1,14 +1,15 @@
-== README
 邱鈺雯 s12119207
-先開起檔案資料夾
-1.cd app2   2.bundle   3.rails s    4.到瀏覽器開啟localhost:3000/welcome
-新增網頁
-1.去text裡按app/controllers/topics在第四行打def welcome，第五行打end
+# 先開起檔案資料夾
+- 1.cd app2   2.bundle   3.rails s    4.到瀏覽器開啟localhost:3000/welcome
+# 新增網頁
+- 1.去text裡按app/controllers/topics在第四行打def welcome，第五行打end
 再去views/topics右鍵新增welcome.html.erb 存擋後檔名：welcome.html.erb存完後又刪掉打<h1>Hello</h1>，再去config/routes/在第四行打get’welcome’,to:’topics#welcome’存擋到sites打上rails s (若最後有出現是8000）應該就對了，開localhost:3000/welcome成功能投票即成功接著陸續新增網頁
-2.app2/app/viwes/layouts/application.html.erb/在第103-105行複製上面的頁面網址http://localhost:3000/打自己想要的名稱/接著語法上打上點擊網頁所要的名稱即可
-我把頁面上的使用者登入刪掉
+
+- 2.app2/app/viwes/layouts/application.html.erb/在第103-105行複製上面的頁面網址http://localhost:3000/打自己想要的名稱/接著語法上打上點擊網頁所要的名稱即可
+
+# 我把頁面上的使用者登入刪掉
 1.App2/app/views/common/_navbar.html.erb
-設定首頁
+# 設定首頁
 1.
 更改頁面Bootstrap
 1.開啟app/views/layouts/application.html.erb
