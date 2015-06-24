@@ -31,19 +31,23 @@
 
 首頁設定
 
-- <li class="active"><a href=“http://localhost:3000/">首頁</a></li>
+- <li class="active"><a href=“http://localhost:3000/">
+ 首頁</a></li>
 
 會員登入
 先建立一個網頁
-- 在app2/app/topics/welcome/打上<h1>會員登入</h1>
+- 在app2/app/topics/welcome/打上
+ <h1>會員登入</h1>
 
 研討會報名系統
 
-- 在app2/app/topics/welcome/打上<h1>研討會報名區</h1>
+- 在app2/app/topics/welcome/打上
+ <h1>研討會報名區</h1>
 
 投稿區
 
-- 在app2/app/topics/welcome/打上<h1>研討會投稿區</h1>
+- 在app2/app/topics/welcome/打上
+ <h1>研討會投稿區</h1>
 
 聯絡
 
